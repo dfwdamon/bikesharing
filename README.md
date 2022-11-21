@@ -12,50 +12,40 @@ The following public link contains the resultant graphics of each assesment.
 (https://public.tableau.com/app/profile/damon7164)
 
 ### Checkout Times for Users
-Nearly all bikes are checked out for less than an hour at a time, with most rides lasting about 5 minutes.
-
-
-![OTHER](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
+A majority of bikes are checked out for less than an hour at a time, with most rides lasting approximately 5-15 minutes.
 ![CheckoutTimesforUsers](https://github.com/dfwdamon/bikesharing/blob/main/Checkout_Times_Users.png?raw=true)
 
 ### Checkout Times by Gender
-A majority of bikes are checked out by male riders.
-
-![Checkout Times by Gender](https://github.com/dfwdamon/bikesharing/blob/main/Checkout_Times_Users.png)
+A majority of bikes are checked out by male riders, around 70%.
+![Checkout Times by Gender](https://github.com/dfwdamon/bikesharing/blob/main/Checkout_Times_Gender.png?raw=true)
 
 ### Trips by Weekday per Each Hour
-Rides tend to increase during weekday commuting hours (6am-9am and 4pm-7pm), and midday during weekends.
+Rides increase during weekday commuting hours (6am-9am and 4pm-8pm), and are heavy from 10-5 PM during weekends. Wednesdays are typically lower use after 9AM for the remainder of the day.
+![Trips by Weekday per Each Hour](https://github.com/dfwdamon/bikesharing/blob/main/Trips_by_Weekday.png?raw=true)
 
-![Trips by Weekday per Each Hour](https://github.com/dfwdamon/bikesharing/blob/main/Checkout_Times_Users.png)
-
-### Trips by Gender (Weekday per Hour)
-Male subscribers represent the greatest rider demographic regardless of the day of the week.
-
-![Trips by Gender (Weekday per Hour)](https://github.com/dfwdamon/bikesharing/blob/main/Checkout_Times_Users.png)
+### Trips by Gender (by Weekday)
+Male subscribers represent the greatest rider demographic each day of the week. Female riders have a similar pattern with reduced volume.
+![Trips by Gender (Weekday per Hour)](https://github.com/dfwdamon/bikesharing/blob/main/User_Trips_Gender_Weekday.png?raw=true)
 
 ### Trips by Gender (Weekday per Hour)
-Male and female riders share similar trends when checking out bikes based on day/time. Unknown may not have enough data to identify trends.
+Male and female riders share similar trends when checking out bikes based on day/time. 
+![Trips by Gender](https://github.com/dfwdamon/bikesharing/blob/main/Trips_by_Gender_Hour.png?raw=true)
 
-![Trips by Gender](https://github.com/dfwdamon/bikesharing/blob/main/Checkout_Times_Users.png?raw=true)
-
-
-<br>________________________________________________________________________________________________________________________________________________________
-### Top Start & End Locations
-The majority of bikes are checked out in the most populated areas of Manhattan.
-
-![Start & End Locations](https://github.com/KdotGhai/BikeSharing/blob/16576b6e929786c5bf331bab11115f731f903deb/images/Start&End%20Locations.png)
 
 ## Summary
-Viewing the above visualizations, we find: 
-* A majority of users are male and that most of the riders are annual subscribers
-* Peak riding hours are typically during workweek commuting hours and midday during the weekends when riders are more likely to be riding for leisure. 
-* Though the map will look different for Des Moines, we can see from the map of starting locations, that most bikes are checked out in more highly populated areas like downtown or near tourist attractions.
+The following high-level results of the assessment with suggestions are listed below.
+* The majroity of rides are 5 to 20 minutes in length. 
+* Female rides are longer in length (8-30 minutes) and this suggests a higher per rider revenue.
+* A majority of riders are male and that most of the riders are annual subscribers
+* Peak ridership trends during the AM and PM weekday communiting periods. 
+* Wednesday ridership is lower all day,  especialy after 9AM.
 
-Based on these findings, the bike app for Des Moines should:
-* Focus on marketing to male riders and offering incentives for subscription. 
-* We can also reccomend placing more bikes and docking stations near downtown areas, office buildings, and tourist attractions since CitiBike in New York appears to be used primarily for commuting and/or sightseeing.
+### Suggestions
+Based on these assessments and findings, the the following suggestions should be considered key decision support points:
+* There is a large number or rides under 5 minutes which should be investigated further and adjustments determined.
+* Increasing female rides which trend longer in ride time, could help increase revenue with more longer bookings.
+* Offer incentives on subscritions to increase the overall rate and widen the gender coverage. 
 
 Recommended Additional Visualizations: 
-* A comparison of the number of trips bewteen different months to understand how ridership changes seasonally.
-* Trips by weekday by age group
+* Compare the number of trips bewteen different months to understand how ridership changes seasonally.
+* Detailed trip locations assessments to show gaps in availability and to balance usage.
